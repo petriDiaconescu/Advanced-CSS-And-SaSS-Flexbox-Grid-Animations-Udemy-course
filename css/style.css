@@ -60,6 +60,7 @@ body {
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
+  margin-bottom: 60px;
   
   backface-visibility: hidden;
 }
@@ -130,6 +131,14 @@ body {
   text-decoration: none;
   display: inline-block;
   padding: 15px 40px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(-1px);
 }
 
 .btn-white {
