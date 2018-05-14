@@ -62,6 +62,7 @@ body {
   letter-spacing: 35px;
   
   animation-name: moveInLeft;
+  animation-delay: 3s;
   animation-duration: 1s;
 }
 
