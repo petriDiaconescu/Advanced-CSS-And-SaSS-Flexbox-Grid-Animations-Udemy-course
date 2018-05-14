@@ -131,6 +131,7 @@ body {
   text-decoration: none;
   display: inline-block;
   padding: 15px 40px;
+  border-radius: 100px;
 }
 
 .btn:hover {
