@@ -81,7 +81,7 @@ body {
   }
   
   80% {
-    
+    transform: translateX(20px);
   }
   
   100% {
