@@ -12,13 +12,14 @@ nav {
   margin: 30px;
   background-color: $color-primary;
   
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
 }
 
-.clearfix:after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 .navigation {
   list-style: none;
