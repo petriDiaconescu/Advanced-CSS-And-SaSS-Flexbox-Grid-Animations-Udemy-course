@@ -119,11 +119,13 @@
     
   }
   
-  &__price_only {
-    
+  &__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
   }
   
-  &__price_value {
-    
+  &__price-value {
+    font-size: 6rem;
+    font-weight: 100;
   }
 }
