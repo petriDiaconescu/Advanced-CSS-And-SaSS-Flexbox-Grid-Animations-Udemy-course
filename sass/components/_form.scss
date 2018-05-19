@@ -23,6 +23,10 @@
     outline: none;
     box-shadow: 0 1.5rem 2rem rgba($color-black, .1);
     border-bottom: 3px solid $color-primary;
+    
+    &:focus:invalid {
+      border-color: $color-secondary-dark;
+    }
   }
   }
   
