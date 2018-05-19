@@ -19,15 +19,32 @@
   }
   
   &__list {
+    list-style: none;
     
   }
   
   &__item {
+    display: inline-block;
     
+    &:not(:last-child){
+      margin-right: 1.5rem;
+    }
   }
   
   &__link {
+    &:link,align-content, 
+    &:visited {
+      color: $color-grey-light-1;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+    }
     
+    &:hover,
+    &:active {
+      color: $color-primary;
+      box-shadow: 0 1rem 2rem rgba($color-black, .4);
+    }
   }
 }
 
