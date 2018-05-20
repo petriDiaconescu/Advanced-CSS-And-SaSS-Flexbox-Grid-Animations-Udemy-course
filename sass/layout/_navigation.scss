@@ -142,9 +142,11 @@
   
   &__checkbox:checked + &__button &__icon:before {
     transform: rotate(45deg);
+    top: 0;
   }
   
   &__checkbox:checked + &__button &__icon:after {
     transform: rotate(-45deg);
+    top: 0;
   }
 }
