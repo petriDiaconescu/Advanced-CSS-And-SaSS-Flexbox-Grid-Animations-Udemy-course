@@ -136,5 +136,7 @@
     top: 1rem;
   }
 
-  
+  &__checkbox:checked + &__button &__icon {
+    background-color: transparent;
+  }
 }
