@@ -88,8 +88,26 @@
     transform: scale(80);
   }
   
+  //FUNCTIONALITY
   &__checkbox:checked ~ &__nav{
     width: 100%;
     opacity: 1;
+  }
+  
+  //ICON
+  &__icon {
+    &,
+    &:before,
+    &:after {
+      width: 3rem;
+      height: 2px;
+      background-color: $color-gray-dark-3;
+      display: inline-block;
+    }
+    
+    &:before,
+    &:after {
+      content: "";
+    }       
   }
 }
