@@ -12,3 +12,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+//MEDIA QUERY MANAGER
+/*
+0-680               Phone
+600-900             Tablet Portrait
+900-1200            Tablet Landscape
+1200-1800           Our normal styles apply
+800+                Big Desktops
+*/
+
+@mixin respond-phone {
+  @media (max-width: 600px) { @content };
+}
