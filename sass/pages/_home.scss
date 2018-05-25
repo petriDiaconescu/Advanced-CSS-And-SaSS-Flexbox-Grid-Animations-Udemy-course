@@ -43,6 +43,10 @@
 .section-stories {
   padding: 15rem 0;
   position: relative;
+  
+  @include respond(tab-port){
+    padding: 10rem 0;
+  }
 }
 
 .section-book {
