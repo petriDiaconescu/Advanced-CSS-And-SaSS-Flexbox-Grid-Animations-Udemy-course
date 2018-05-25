@@ -159,13 +159,16 @@
   @include respond(tab-port){
     // FUNCTIONALITY
     height: auto;
+    border-radius: 3px;
+    background-color: $color-white;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
     &__side {
       height: auto;
       transition: all .8s ease;
       position: relative;
-      border-radius: 3px;
       overflow: hidden;
+      box-shadow: none;
 
       
       &--back {
@@ -181,13 +184,17 @@
     }
 
 
+    &__details {
+      padding: 1rem 3rem;
+    }
+    
     &__cta {
       position: relative;
       top: 0;
       left: 0;
       transform: translate(0);
       width: 100%;
-      padding: 4rem;
+      padding: 7rem 4rem 4rem 4rem;
     }
 
     &__price-box {
@@ -196,7 +203,7 @@
 
    
     &__price-value {
-      font-size: 6rem;
+      font-size: 4rem;
     }
   }
 }
