@@ -170,6 +170,7 @@
       
       &--back {
         transform: rotateY(0deg);
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
       }
     }
 
@@ -186,10 +187,11 @@
       left: 0;
       transform: translate(0);
       width: 100%;
+      padding: 4rem;
     }
 
     &__price-box {
-      margin-bottom: 8rem;
+      margin-bottom: 3rem;
     }
 
    
