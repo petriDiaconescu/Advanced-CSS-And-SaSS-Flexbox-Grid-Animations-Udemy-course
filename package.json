@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/petriDiaconescu/Advanced-CSS-And-SaSS-Flexbox-Grid-Animations-Udemy-course#readme",
   "devDependencies": {
+    "concat": "^1.0.3",
     "node-sass": "^4.9.0"
   }
 }
