@@ -2,6 +2,7 @@
 //logo
 .logo {
   height: 3.25rem;
+  margin-left: 3rem;
 }
 
 
@@ -9,6 +10,7 @@
 //searchbox
 .search {
   background-color: orangered;
+  flex: 0 0 40%;
   &__input {
     
   }
