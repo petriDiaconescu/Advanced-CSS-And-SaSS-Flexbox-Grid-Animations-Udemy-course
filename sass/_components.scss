@@ -250,6 +250,11 @@
     margin-left: 3rem;
     padding: 0 2.25rem;
     align-self: stretch;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   &__rating-count {
