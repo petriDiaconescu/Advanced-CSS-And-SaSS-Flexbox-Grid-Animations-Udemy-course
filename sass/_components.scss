@@ -9,7 +9,6 @@
 ////////////////////////////////////////
 //searchbox
 .search {
-  background-color: orangered;
   flex: 0 0 40%;
   
   display: flex;
@@ -55,6 +54,7 @@
   &__icon {
     height: 2rem;
     width: 2rem;
+    fill: var(--color-grey-dark-3);
   }
   
 }
