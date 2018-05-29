@@ -251,3 +251,16 @@
   }
 }
 
+//////////////////////////////////////////////////
+//BUTTON INLINE
+.btn-inline {
+  border: none;
+  color: var(--color-primary);
+  font-size: inherit;
+  border-bottom: 1px solid currentColor;
+  
+  &:hover {
+    color: var(--color-grey-dark-1);
+  }
+}
+
