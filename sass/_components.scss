@@ -148,7 +148,7 @@
     background-color: var(--color-primary);
     transform: scaleY(0);
     transition: transform .2s,
-                width .4s .2s;
+                width .4s cubic-bezier(1,0,0,1) .2s;
   }
   
   &__item:hover::before {
