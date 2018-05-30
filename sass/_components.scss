@@ -390,11 +390,12 @@
   margin-bottom: 3.5rem;
   
   &__text {
-    
+    margin-bottom: 2rem;
   }
   
   &__user {
-    
+    display: flex;
+    align-items: center;
   }
   
   &__photo {
@@ -404,7 +405,7 @@
   }
   
   &__user-box {
-    
+    margin-right: auto;
   }
   
   &__user-name {
