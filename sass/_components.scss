@@ -493,5 +493,15 @@
     padding: 2rem 0;
     height: 100%;
     width: 100%;
+    
+    transition: all .2s;
+  }
+  
+  &:hover &__invisible {
+    top: 0;
+  }
+  
+  &:hover &__visible {
+    
   }
 }
