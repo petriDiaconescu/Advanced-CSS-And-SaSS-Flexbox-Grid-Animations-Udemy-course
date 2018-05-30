@@ -500,6 +500,10 @@
     
   }
   
+  &:hover {
+    background-image: linear-gradient(to left, var(--color-primary-light), var(--color-primary-dark));
+  }
+  
   &:hover &__invisible {
     top: 0;
   }
