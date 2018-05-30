@@ -477,6 +477,7 @@
   border: none;
   background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
   color: #fff;
+  position: relative;
   
   &__visible {
     display: inline-block;
@@ -484,6 +485,12 @@
   }
   
   &__invisible {
-    
+    display: inline-block;
+    position: absolute;
+    top: -100%;
+    left:0;
+    padding: 2rem 7.5rem;
+    height: 100%;
+    width: 100%;
   }
 }
