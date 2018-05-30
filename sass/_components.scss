@@ -358,7 +358,8 @@
 //recommend
 .recommend {
   font-size: 1.3rem;
-  color: var(--color-grey-light-3);
+  color: var(--color-grey-dark-3);
+  display: flex;
   
   &__photo {
     height: 4rem;
