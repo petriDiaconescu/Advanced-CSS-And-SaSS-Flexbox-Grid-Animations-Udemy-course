@@ -16,7 +16,8 @@
   justify-content: center;
   
   @media only screen and (max-width: $bp-smallest){
-    order: 1; 
+    order: 1;
+    flex: 0 0 100%;
   } 
 
   &__input {
