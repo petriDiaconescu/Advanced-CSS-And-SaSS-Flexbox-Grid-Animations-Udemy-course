@@ -8,4 +8,37 @@
   display: grid;
   grid-template-rows: 150px 150px;
   grid-template-columns: 150px 150px 150px;
+  
+  
+}
+
+.item {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  
+  &--1 {
+    background-color: orangered;
+  }
+  
+  &--2 {
+    background-color: yellowgreen;
+  }
+  
+  &--3 {
+    background-color: blueviolet;
+  }
+  
+  &--4 {
+    background-color: palevioletred;
+  }
+  
+  &--5 {
+    background-color: royalblue;
+  }
+  
+  &--6 {
+    background-color: goldenrod;
+  }
 }
