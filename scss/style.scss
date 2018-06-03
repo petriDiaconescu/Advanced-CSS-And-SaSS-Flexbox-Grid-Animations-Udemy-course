@@ -21,7 +21,7 @@
   grid-template-columns: repeat(2, 200px);
   height: 1000px;
   
-   justify-content: center;
+   justify-content: space-between; // center/ start/ end /space-between
    
   .item {
     padding: 20px;
