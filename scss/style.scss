@@ -4,9 +4,12 @@
   background-color: #ddd;
   
   display: grid;
+  //Using min-content and max-content
   //grid-template-rows: repeat(2, 150px);
-  grid-template-columns: max-content 1fr 1fr min-content;
+  //grid-template-columns: max-content 1fr 1fr min-content;
   //grid-template-rows: repeat(2, min-content);
+  
+  //Using min-max function
   grid-template-rows: repeat(2, minmax(150px, min-content));
   
   .item {
