@@ -61,7 +61,7 @@
   }
   
   .sidebar {
-    grid-row: 2 / 4;
+    grid-row: box-start / main-end;
   }
   
   .main-content {
