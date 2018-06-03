@@ -34,8 +34,13 @@
     &--4 {
       background-color: crimson;
       grid-row: 2 / span 3;
-      align-self: end;
-      justify-self: start;
+      //align-self: end;
+      //justify-self: start;
+    }
+    
+    &--6 {
+      background-color: lightcoral;
+      grid-row: 2 / span 2;
     }
     
     &--7 {
