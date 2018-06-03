@@ -85,7 +85,7 @@
   grid-gap: 30px;
   
   grid-template-areas: "head head head ."
-                       "box  box  box  side"
+                       "box-1  box-2  box-3  side"
                        "main main main side"
                        "foot foot foot foot";
   
@@ -101,10 +101,14 @@
     grid-area: head;
   }
   
-  .small-box-1,
-  .small-box-2,
+   .small-box-1 {
+    grid-area: box-1;
+  }
+  .small-box-2 {
+    grid-area: box-2;
+  }
   .small-box-3 {
-    grid-area: box;
+    grid-area: box-3;
   }
   
   .sidebar {
