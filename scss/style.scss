@@ -3,6 +3,8 @@
   margin: 30px auto;
   background-color: #ddd;
   
+  display: grid;
+  grid-template-rows: repeat(2, 150px);
   
   .item {
     padding: 20px;
