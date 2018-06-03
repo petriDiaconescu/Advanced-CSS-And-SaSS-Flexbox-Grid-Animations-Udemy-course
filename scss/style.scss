@@ -84,7 +84,7 @@
   grid-template-columns: repeat(3, 1fr) 200px;
   grid-gap: 30px;
   
-  grid-template-areas: "head head head head"
+  grid-template-areas: "head head head ."
                        "box  box  box  side"
                        "main main main side"
                        "foot foot foot foot";
