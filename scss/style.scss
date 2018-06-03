@@ -25,7 +25,8 @@
     &--4 {
       background-color: crimson;
       grid-row: 2 / span 3;
-      align-self: start;
+      align-self: end;
+      justify-self: start;
     }
     
     &--7 {
