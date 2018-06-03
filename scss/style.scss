@@ -13,7 +13,7 @@
   grid-auto-columns: .5fr;
   
   align-items: center; //STRETCH / center / end / start (STRETCH is default)
-  justify-items: center;
+  justify-items: start;
   
   .item {
     padding: 20px;
