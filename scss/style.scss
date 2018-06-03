@@ -12,7 +12,8 @@
   grid-auto-flow: row;
   grid-auto-columns: .5fr;
   
-  align-items: end; //STRETCH / center / end / start (STRETCH is default)
+  align-items: center; //STRETCH / center / end / start (STRETCH is default)
+  justify-items: center;
   
   .item {
     padding: 20px;
