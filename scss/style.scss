@@ -4,8 +4,8 @@
   background-color: #ddd;
   
   display: grid;
-  grid-template-rows: repeat(2, 150px);
-  grid-template-columns: repeat(2, 1fr);
+  //grid-template-rows: repeat(2, 150px);
+  //grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
   
   grid-auto-rows: 80px;
@@ -13,10 +13,13 @@
   grid-auto-columns: .5fr;
   
   //align grid items to grid area
-  align-items: center; //STRETCH / center / end / start (STRETCH is default)
-  justify-items: center;
+  //align-items: center; //STRETCH / center / end / start (STRETCH is default)
+  //justify-items: center;
   
   //align grid tracks to grid container
+  grid-template-rows: repeat(2, 100px);
+  grid-template-columns: repeat(2, 200px);
+  height: 1000px;
   
   .item {
     padding: 20px;
