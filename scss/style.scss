@@ -101,6 +101,12 @@
     grid-area: head;
   }
   
+  .small-box-1,
+  .small-box-2,
+  .small-box-3 {
+    grid-area: box;
+  }
+  
   .sidebar {
     grid-area: side;
   }
