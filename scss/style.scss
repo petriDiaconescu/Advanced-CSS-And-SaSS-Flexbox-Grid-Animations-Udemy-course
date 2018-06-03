@@ -16,6 +16,7 @@
   
   //Using auto-fill and auto-fit
   grid-template-rows: repeat(2, minmax(150px, min-content));
+  grid-template-columns: repeat(4, 1fr);
   
   .item {
     padding: 20px;
