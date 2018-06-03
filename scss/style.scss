@@ -10,9 +10,12 @@
   //grid-template-rows: repeat(2, min-content);
   
   //Using min-max function
-  width: 90%;
+  //width: 90%;
+  //grid-template-rows: repeat(2, minmax(150px, min-content));
+  //grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
+  
+  //Using auto-fill and auto-fit
   grid-template-rows: repeat(2, minmax(150px, min-content));
-  grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
   
   .item {
     padding: 20px;
