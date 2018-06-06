@@ -33,8 +33,10 @@
   }
   
   &__name {
+    grid-row: 1 / span 1;
     grid-column: 1 / -1;
     justify-self: center;
+    z-index: 3;
     
     width: 80%;
     font-family: $font-display;
