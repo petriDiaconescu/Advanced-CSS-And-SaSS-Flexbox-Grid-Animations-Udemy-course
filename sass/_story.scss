@@ -4,6 +4,8 @@
     grid-column: full-start / col-end 4;
     
     display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
   
   &__img--1 {
