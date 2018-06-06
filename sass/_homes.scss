@@ -17,6 +17,8 @@
   &__img {
     width: 100%;
     grid-column: 1 / -1;
+    grid-row: 1 / span 1;
+    z-index: 1;
   }
   
   &__like {
@@ -25,6 +27,7 @@
     width: 2.5rem;
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
+    z-index: 2;
   }
   
   &__name {
