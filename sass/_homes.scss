@@ -20,7 +20,11 @@
   }
   
   &__like {
-    
+    fill: $color-primary;
+    height: 2.5rem;
+    width: 2.5rem;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
   }
   
   &__name {
