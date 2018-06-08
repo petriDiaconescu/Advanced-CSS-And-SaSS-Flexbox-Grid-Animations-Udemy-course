@@ -5,6 +5,9 @@
   background-size: cover;
   background-position: center;
   
+  display: grid;
+  grid-template-rows: 1fr;
+  
   &__logo {
     height: 3rem;
   }
