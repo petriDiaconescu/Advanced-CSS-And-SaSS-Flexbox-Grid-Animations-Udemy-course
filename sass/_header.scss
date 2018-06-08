@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center;
   padding: 8rem;
+  padding-top: 4rem;
   
   display: grid;
   grid-template-rows: 1fr min-content 6rem 1fr;
@@ -12,6 +13,7 @@
   
   &__logo {
     height: 3rem;
+    justify-self: center;
   }
   
   &__btn {
