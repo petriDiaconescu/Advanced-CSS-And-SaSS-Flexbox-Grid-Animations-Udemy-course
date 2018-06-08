@@ -1,4 +1,18 @@
 .header {
   background-color: $color-grey-dark-1;
   grid-column: full-start / col-end 6;
+  
+  &__logo {
+    height: 3rem;
+  }
+  
+  &__seemon--text {
+    
+  }
+  
+  &__seemon--logos {
+    img {
+      height: 2.5rem;
+    }
+  }
 }
